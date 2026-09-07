@@ -48,15 +48,15 @@ export const DIVISIONS: readonly Division[] = [
     href: "https://www.mwtrainplan.co.nz",
   },
   {
-    // Copy is placeholder, awaiting final wording. The site is not live, so
-    // this cell is deliberately not a link. When mwcivil.co.nz launches, give
-    // it an href and it will render exactly like the other five.
+    // The site is not live, so this cell is deliberately not a link. When
+    // mwcivil.co.nz launches, give it an href and it will render exactly
+    // like the other five.
     name: "MW Civil",
     markerColor: "#EB0000",
     logo: mwCivilColour,
     logoMaxHeightClass: "max-h-[62px]",
     blurb:
-      "The group's civil construction division, working alongside the traffic management and sweeping crews on the same sites.",
+      "Earthworks, drainage, roading, subdivisions and pavement construction, from Christchurch and Timaru.",
     meta: "mwcivil.co.nz · coming soon",
     href: null,
   },
@@ -66,7 +66,7 @@ export const DIVISIONS: readonly Division[] = [
     logo: tempLight,
     logoMaxHeightClass: "max-h-[64px]",
     blurb:
-      "Labour hire at short notice from Wellington, Blenheim and Christchurch, plus permanent recruitment nationwide.",
+      "Labour hire at short notice from Wellington, Blenheim, Christchurch and Timaru, plus permanent recruitment nationwide.",
     meta: "thetempcompany.co.nz",
     href: "https://www.thetempcompany.co.nz",
   },
