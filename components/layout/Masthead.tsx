@@ -13,7 +13,7 @@ export function Masthead() {
         src={mwGroupWhite}
         alt="MW Group"
         priority
-        className="h-14 w-auto object-contain"
+        className="h-20 w-auto object-contain min-[700px]:h-24"
       />
       <p className="font-mono text-[11px] uppercase tracking-[0.13em] text-sage">
         {MASTHEAD_META}
