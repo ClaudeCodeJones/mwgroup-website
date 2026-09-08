@@ -2,10 +2,10 @@ import type { StaticImageData } from "next/image";
 
 import mawTmColor from "@/public/images/brands/maw-tm-color.png";
 import mwCivilColour from "@/public/images/brands/mw-civil-colour.png";
+import mwTrainplanColour from "@/public/images/brands/mw-trainplan-colour.png";
 import qualcardColour from "@/public/images/brands/qualcard-colour.svg";
 import sweepcoHorizontal from "@/public/images/brands/sweepco-horizontal.png";
 import tempLight from "@/public/images/brands/temp-light.png";
-import tmtpDark from "@/public/images/brands/tmtp-dark.png";
 
 export type Division = {
   readonly name: string;
@@ -40,7 +40,7 @@ export const DIVISIONS: readonly Division[] = [
   {
     name: "MW Training and Planning",
     markerColor: "#2983C2",
-    logo: tmtpDark,
+    logo: mwTrainplanColour,
     logoMaxHeightClass: "max-h-[64px]",
     blurb:
       "Risk-based Traffic Management Plans (NZGTTM) designed nationwide, plus NZQA unit standard training for TTM Worker, TMO and STMS.",
