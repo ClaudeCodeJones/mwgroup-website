@@ -54,7 +54,11 @@ export const DIVISIONS: readonly Division[] = [
     name: "MW Civil",
     markerColor: "#EB0000",
     logo: mwCivilColour,
-    logoMaxHeightClass: "max-h-[62px]",
+    // 66px rather than the handoff's 62px. That value was tuned against the
+    // old Training and Planning logo; now that three of the top row are the
+    // same roundel plus wordmark lockup, 66px brings this circle to 56.3px,
+    // matching its two neighbours at 55.8px and 55.9px.
+    logoMaxHeightClass: "max-h-[66px]",
     blurb:
       "Earthworks, drainage, roading, subdivisions and pavement construction, from Christchurch and Timaru.",
     meta: "mwcivil.co.nz · coming soon",
