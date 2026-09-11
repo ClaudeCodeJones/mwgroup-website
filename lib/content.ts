@@ -7,7 +7,7 @@
 
 export const MASTHEAD_META = "Family owned · Established 2008";
 
-export const STORY_EYEBROW = "Parent brand · Six divisions";
+export const STORY_EYEBROW = "Parent brand · Six businesses";
 
 export const STORY_HEADING = "MW Group";
 
@@ -20,7 +20,7 @@ export const STORY_PARAGRAPHS: readonly string[] = [
   "Since those early days, the business has grown into a group of specialist brands operating across key regions of New Zealand.",
 ];
 
-export const DIVISIONS_EYEBROW = "The divisions";
+export const DIVISIONS_EYEBROW = "Our businesses";
 
 export const FOOTER_STATEMENT =
   "One standard across every business. Built on experience since 2008.";
